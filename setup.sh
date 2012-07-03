@@ -10,6 +10,8 @@ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/lo
 rm -rf ~/Library/Application\ Support/Alfred/customsites
 ln -s ~/Dropbox/Data/Alfred ~/Library/Application\ Support/Alfred/customsites
 
-# Set up github credentials
+# Set up git
 git config --global credential.helper osxkeychain
+git config --global user.name "Michael Lazer-Walker"
+git config --global user.email michael@lazerwalker.com
 
