@@ -1,0 +1,8 @@
+[credential]
+	helper = osxkeychain
+[user]
+	name = Michael Lazer-Walker
+	email = michael@lazerwalker.com
+[alias]
+  delete = !git ls-files -z --deleted | xargs -0 git rm
+  pretty = log --graph --pretty=format:'%Cred%h%Creset %C(cyan)%an%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative

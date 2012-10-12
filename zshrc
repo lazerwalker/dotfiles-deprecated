@@ -8,8 +8,10 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/.oh-my-zsh"
+
+alias linode="ssh web@download.scribeapp.com"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -35,7 +37,7 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin/:/usr/local/texlive/2011/bin/x86_64-darwin:/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin
+export PATH=/usr/local/bin:/usr/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin
 export NODE_PATH=/usr/local/lib/node_modules
 source ~/.local/bin/bashmarks.sh
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
